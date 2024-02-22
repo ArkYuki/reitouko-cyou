@@ -3,6 +3,8 @@
 冷凍庫（音 れいとうこ，reitouko）是以公益二级域名分发为主要业务的站点。    
 
 > 域名创意来源于音游曲「Alice in 冷凍庫」，所以也可以叫英文Freezer   
+   
+Go to my [**Blog**](https://blog.reitouko.cyou)
 
 ## 子域分发
     
