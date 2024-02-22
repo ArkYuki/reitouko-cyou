@@ -1,0 +1,38 @@
+name: 申请子域 | Apply new subdomain
+description: 在这里申请子域 | Regist new subdomains here.
+- type: input
+  attributes:
+    label: 输入完整的域名 | Enter FULL subdomain.
+    description: 有一些保留域名是不能选择的，比如所有单字母子域和“blog”“mc”等管理员使用中的域名。如果你选择了其他用户已经在用的域名，你可以在收到通知之后更改 | There are some reserved domains that cannot be selected, such as all single-letter parent-child domains and domains in use by administrators such as "blog" and "mc". If you choose a domain name that is already in use by another user, you can change it after receiving notification.
+    placeholder: e.g. example.reitouko.cyou
+
+- type: dropdown
+  attributes:
+    label: 选择你要添加的记录 | Select the DNS record.
+    description: 通常来说，Github Pages添加CNAME记录，IPv4添加A记录，IPv6添加AAAA记录 | Choose CNAME you are using GitHub Pages, A if you have an IPv4 address and AAAA if you have an IPv6 address.
+    options:
+      - CNAME
+      - A
+      - AAAA
+
+- type: input
+  attributes:
+    label: 输入你解析的内容 | Enter the record destination.
+    placeholder: e.g. 1.1.1.1
+
+- type: checkbox
+  attributes:
+    options:
+      - label: 开启Cloudflare CDN | Use Cloudflare CDN service.
+
+- type: checkbox
+  attributes:
+    options:
+      - label: 将域名公开到冰冻广场 | Publicize your subdomain to Reitouko Square.
+
+- type: input
+  attributes:
+    label: 在冰冻广场显示的标题 | Enter the title you want to show in the square.
+    description: 给你的网站起个名字吧 | Name your website!
+    placeholder: e.g. My Blog.
+  
