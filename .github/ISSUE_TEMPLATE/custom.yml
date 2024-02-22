@@ -52,7 +52,7 @@ body:
         - label: 我同意Reitouko管理组可以在我违反以上条款是删除我的域名。| I agree that the Reitouko administration team can delete my domain name if I violate the above terms.
           required: true
 
-  - type: markdown
+  - type: textarea
     attributes:
-      value: "留下Email和想说的话吧！| Leave an Email and what you want to say!"
+      label: "留下Email和想说的话吧！| Leave an Email and what you want to say!"
   
