@@ -38,4 +38,21 @@ body:
       label: 在冰冻广场显示的标题 | Enter the title you want to show in the square.
       description: 给你的网站起个名字吧 | Name your website!
       placeholder: e.g. My Blog.
+
+  - type: checkboxes
+    attributes:
+      label: 你必须同意同意下面的条款，才能使用Reitouko的服务！| You have to agree the terms below to use the service!
+      options: 
+        - label: 我同意不将我的网站用于宣传色情。| I agree not to use my site to promote pornography.
+          - required: true
+        - label: 我同意不将我的网站用于宣传针对特定人群的歧视。| I agree not to use my website to promote discrimination against specific groups of people.
+          - required: true
+        - label: 我同意不将我的网站用于其他违反法律的用途。| I agree not to use my website for any other purpose that violates the law.
+          - required: true
+        - label: 我同意Reitouko管理组可以在我违反以上条款是删除我的域名。| I agree that the Reitouko administration team can delete my domain name if I violate the above terms.
+          - required: true
+
+  - type: markdown
+    attributes:
+      value: "留下Email和想说的话吧！| Leave an Email and what you want to say!"
   
