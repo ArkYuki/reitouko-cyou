@@ -21,12 +21,12 @@ body:
     label: 输入你解析的内容 | Enter the record destination.
     placeholder: e.g. 1.1.1.1
 
-- type: checkbox
+- type: checkboxes
   attributes:
     options:
       - label: 开启Cloudflare CDN | Use Cloudflare CDN service.
 
-- type: checkbox
+- type: checkboxes
   attributes:
     options:
       - label: 将域名公开到冰冻广场 | Publicize your subdomain to Reitouko Square.
