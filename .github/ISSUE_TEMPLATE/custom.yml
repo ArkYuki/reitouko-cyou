@@ -23,11 +23,13 @@ body:
 
   - type: checkboxes
     attributes:
+      label: 大陆服务器不建议开启Cloudflare CDN
       options:
         - label: 开启Cloudflare CDN | Use Cloudflare CDN service.
 
   - type: checkboxes
     attributes:
+      label: 冰冻广场是Reitouko的域名公布页面，让申请了reitouko.cyou子域的小伙伴们聚集起来。不过也可以选择不公开。 | The Reitouko Square is the place to organize every Reitoukers together.
       options:
         - label: 将域名公开到冰冻广场 | Publicize your subdomain to Reitouko Square.
 
