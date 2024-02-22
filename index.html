@@ -8,17 +8,17 @@
     </head>
     <body onload="loadMarkdownFile()">
         <div id="content">
-            <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-            <script>
-                function loadMarkdownFile() {
-                    fetch("README.md")
-                        .then(response => response.text())
-                        .then(markdown => {
-                            const html = marked(markdown);
-                            document.getElementById('content').innerHTML = html;
-                        });
-                }
-            </script>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script>
+            function loadMarkdownFile() {
+                fetch("README.md")
+                    .then(response => response.text())
+                    .then(markdown => {
+                        const html = marked(markdown);
+                        document.getElementById('content').innerHTML = html;
+                    });
+            }
+        </script>
     </body>
 </html>
