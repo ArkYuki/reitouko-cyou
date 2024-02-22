@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="logo.png">
+        <meta charset="utf-8"/>
+        <title>冷凍庫 | Reitouko</title>
+        <style>@import url(https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-dark.min.css);</style>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script>
+            function loadMarkdownFile() {
+                fetch('README.md')
+                    .then(response => response.text())
+                    .then(markdown => {
+                        const html = marked(markdown);
+                        document.getElementById('content').innerHTML = html;
+                    });
+            }
+        </script>
+    </head>
+    <body onload="loadMarkdownFile">
+        <div class="content">
+
+        </div>
+    </body>
+</html>
