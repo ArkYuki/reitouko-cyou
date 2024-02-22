@@ -24,8 +24,20 @@ Mods下载：[123云盘（国内用户）](https://www.123pan.com/s/lzELVv-cJ15d
 
 ## Reitouko资源站
     
-Reitouko资源站是由[Alist](https://github.com/alist-org/alist)驱动的在线网盘。   
+Reitouko资源站是由 [Alist](https://github.com/alist-org/alist) 驱动的网盘。   
    
 为了控制存储空间，网盘仅管理员能操作文件。    
    
-访问 https://files.reitouko.cyou 了解更多。   
+访问 http://121.46.19.23:43063 了解更多。   
+    
+## Reitouko Dev
+    
+Reitouko在考虑设立ReiUI安卓GSI项目。主要feature有自带冻结APP功能与冷凍庫相关主题。   
+   
+如果你有安卓开发经验，并且愿意为Reitouko出一份力，请联系 [yuki@reitouko.cyou](mailto:yuki@reitouko.cyou)   
+    
+## 捐助
+   
+出于某些原因，Reitouko还没有开放捐助功能。记得常来看哦~   
+   
+<p align="right"><i>最后由Yuki编辑于2024.2.22</i></p>
