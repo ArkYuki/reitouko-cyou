@@ -1,7 +1,6 @@
 name: 申请子域 | Apply new subdomain
 description: 在这里申请子域 | Regist new subdomains here.
 body: 
-  label: There
   - type: input
     attributes:
       label: 输入完整的域名 | Enter FULL subdomain.
