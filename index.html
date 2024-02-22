@@ -8,7 +8,7 @@
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script>
             function loadMarkdownFile() {
-                fetch('README.md')
+                fetch('./README.md')
                     .then(response => response.text())
                     .then(markdown => {
                         const html = marked(markdown);
