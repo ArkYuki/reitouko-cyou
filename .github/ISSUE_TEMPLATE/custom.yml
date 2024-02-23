@@ -51,20 +51,20 @@ body:
       label: 你必须同意同意下面的条款，才能使用Reitouko的服务！| You have to agree the terms below to use the service!
       options: 
         - label: |
-                  '我同意不将我的网站用于宣传色情。
-                  I agree not to use my site to promote pornography.'
+                  我同意不将我的网站用于宣传色情。
+                  I agree not to use my site to promote pornography.
           required: true
         - label: |
-                  '我同意不将我的网站用于宣传针对特定人群的歧视。
-                  I agree not to use my website to promote discrimination against specific groups of people.'
+                  我同意不将我的网站用于宣传针对特定人群的歧视。
+                  I agree not to use my website to promote discrimination against specific groups of people.
           required: true
         - label: |
-                  '我同意不将我的网站用于其他违反法律的用途。
-                  I agree not to use my website for any other purpose that violates the law.'
+                  我同意不将我的网站用于其他违反法律的用途.
+                  I agree not to use my website for any other purpose that violates the law.
           required: true
         - label: |
-                  '我同意Reitouko管理组可以在我违反以上条款时删除我的域名。
-                  I agree that the Reitouko administration team can delete my domain name if I violate the above terms.'
+                  我同意Reitouko管理组可以在我违反以上条款时删除我的域名。
+                  I agree that the Reitouko administration team can delete my domain name if I violate the above terms.
           required: true
 
   - type: textarea
