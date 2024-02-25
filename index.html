@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="icon" href="logo.png">
-        <meta charset="utf-8"/>
-        <title>冷凍庫 | Reitouko</title>
+        <link rel="icon" href="/src/logo.png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="Welcome to: Reitouko!" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@reitouko" />
+        <meta name="twitter:title" content="欢迎来到 冷凍庫！" />
+        <meta name="twitter:description" content="Welcome to: Reitouko!" />   
+        <title data-react-helmet="true">冷凍庫 | Reitouko</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-dark.min.css">
+        <link rel="stylesheet" href="/src/main.css">
     </head>
-    <body style="background-color: #0D1117;">
-        <div id="content" class="markdown-body" style="margin: auto;margin-top: 5rem;max-width: 90%;width: fit-content;">
+    <body>
+        <div class="title">
+            <img src="/src/logo.png" style="max-width: 20rem;">
+            <h1>冷凍庫 | Reitouko</h1>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+        <div id="content" class="markdown-body">
+            <div class="gesture"></div>
+        </div>
+        <script src="https://unpkg.com/marked@latest/lib/marked.umd.js"></script>
+        <script src="https://unpkg.com/jquery@latest/dist/jquery.min.js"></script>
         <script>
             $(function(){
                 $.ajax({

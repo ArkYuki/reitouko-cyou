@@ -1,0 +1,39 @@
+@font-face{
+    font-family: 'comfortaa-regular';
+    src: url(comfortaa-regular.woff2);
+}
+@font-face{
+    font-family: 'comfortaa-thin';
+    src: url(comfortaa-light.woff2);
+}
+body{
+    background-image: url(bg-fixed.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left,center;
+    margin-bottom: 0;
+    font-family: 'comfortaa-regular';
+}
+.markdown-body{
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 90%;
+    width: fit-content;
+    background-color: rgba(13, 17, 23, 0.75);
+    padding: 15px;
+    padding-top:20px;
+    border-radius: 2rem 2rem 0 0;
+    font-family: 'comfortaa-thin';
+}
+.title{
+    text-align: center;
+    margin-top: 15rem;
+    font-size: x-large;
+}
+.gesture{
+    margin: auto;
+    background-color: #1CA4D4;
+    height: 0.3rem;
+    width: 15rem;
+    border-radius: 0.15rem;
+}
