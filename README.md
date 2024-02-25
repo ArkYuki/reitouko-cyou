@@ -33,8 +33,16 @@ Reitouko资源站是由 [Alist](https://github.com/alist-org/alist) 驱动的网
 ## Reitouko Dev
     
 Reitouko在考虑设立ReiUI安卓GSI项目。主要feature有自带冻结APP功能与冷凍庫相关主题。   
+     
+Reitouko计划开发出现式音游。目前已有比较完备的世界观。    
    
-如果你有安卓开发经验，并且愿意为Reitouko出一份力，请联系 [yuki@reitouko.cyou](mailto:yuki@reitouko.cyou)   
+如果你有安卓开发经验，并且愿意为Reitouko出一份力，请联系 [yuki@reitouko.cyou](mailto:yuki@reitouko.cyou)    
+    
+## 加入我们
+     
+要加入，请联系 [yuki@reitouko.cyou](mailto:yuki@reitouko.cyou)。    
+    
+此外，您还可以加入我们的 [Discord](https://discord.gg/xBpcyBKB)。（其实Discord氛围更像游戏群，不过没什么人就是了。）
     
 ## 捐助
    
