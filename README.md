@@ -10,6 +10,10 @@
 
 要申请，请在 [Github仓库](https://github.com/ArkYuki/reitouko-cyou) 提出Issue。   
 
+## Misskey去中心化社群
+
+要加入我们的社群，就去[这里](https://m.reitouko.cyou)看看吧！    
+
 ## Minecraft服务器
    
 Reitouko正在运营一个Minecraft服务器，欢迎来玩。   
